@@ -7,7 +7,7 @@ This project is a simple image gallery built with Next.js and Supabase.
 
 ## Live UI Showcase
 
-![Live UI](images/gallery.png)
+![Live UI](/images/gallery.png)
 
 ## Description
 
