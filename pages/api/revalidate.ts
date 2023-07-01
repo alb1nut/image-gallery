@@ -11,8 +11,7 @@ export default async function handler(
 try{
   // Regenerate our index route showing the images
   await res.revalidate('/')
-  return res.json({revalidate : true
-})
+  return res.json({revalidate : true})
 
    }catch(err){
     return res.status(500).send('Error revalidating')

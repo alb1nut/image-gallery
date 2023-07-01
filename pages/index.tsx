@@ -16,7 +16,6 @@ export async function getStaticProps() {
     }
   )
 let { data } = await supabaseAdmin.from('images').select('*').order('id');
- console.log(data)
   return {
     props: {
       images : data
